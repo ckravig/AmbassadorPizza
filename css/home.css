@@ -1,0 +1,278 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: black;
+}
+.home-logo {
+  color: white;
+}
+.home-desktop-menu {
+  display: flex;
+}
+.home-nav {
+  flex: 0 0 auto;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.home-take-n-bake {
+  margin-left: var(--dl-space-space-twounits);
+}
+.home-about {
+  margin-left: var(--dl-space-space-twounits);
+}
+.home-contact-us {
+  margin-left: var(--dl-space-space-twounits);
+}
+.home-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.home-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.home-mobile-menu {
+  top: 0px;
+  left: 0px;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #000000;
+}
+.home-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: black;
+}
+.home-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.home-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-icon2 {
+  fill: white;
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.home-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-menu1 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-take-n-bake1 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-about1 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-contact-us1 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-icon-group {
+  fill: white;
+  display: flex;
+}
+.home-icon4 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.home-facebook {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.home-hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-hero-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home-hero-heading {
+  font-size: 3rem;
+}
+.home-hero-sub-text {
+  font-size: 24px;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  padding-left: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-threeunits);
+}
+.home-hero-buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-menu2 {
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.home-menu2:hover {
+  transform: scale(1.02);
+}
+.home-take-n-bake2 {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.home-take-n-bake2:hover {
+  transform: scale(1.02);
+}
+.home-image {
+  width: 45rem;
+  margin-top: var(--dl-space-space-fourunits);
+}
+.home-about2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-about-heading {
+  font-size: 3rem;
+  padding-top: var(--dl-space-space-twounits);
+}
+.home-about-text {
+  font-size: 30px;
+  align-self: center;
+  margin-top: var(--dl-space-space-threeunits);
+  text-align: justify;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.home-read-more {
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+}
+@media(max-width: 991px) {
+  .home-hero {
+    flex-direction: column;
+  }
+  .home-hero-text {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .home-hero-heading {
+    text-align: center;
+  }
+  .home-hero-sub-text {
+    text-align: center;
+  }
+  .home-image {
+    width: 80%;
+  }
+  .home-about-heading {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .home-navbar {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .home-desktop-menu {
+    display: none;
+  }
+  .home-take-n-bake {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .home-about {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .home-contact-us {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .home-burger-menu {
+    display: flex;
+  }
+  .home-hero {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .home-hero-sub-text {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .home-navbar {
+    padding: var(--dl-space-space-unit);
+  }
+  .home-mobile-menu {
+    padding: 16px;
+  }
+  .home-hero {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .home-hero-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-menu2 {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+  .home-take-n-bake2 {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+}
