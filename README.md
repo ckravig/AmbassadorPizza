@@ -1,2 +1,2 @@
 # AmbassadorPizza
-ART377 Final
+ART377 Final Project

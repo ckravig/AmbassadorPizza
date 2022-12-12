@@ -38,10 +38,17 @@
   color: var(--dl-color-gray-black);
   display: inline-block;
   padding: 0.5rem 1rem;
+  z-index: 99;
+  transition: 0.3s;
+  font-weight: 600;
   border-color: var(--dl-color-gray-black);
   border-width: 1px;
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
+}
+.button:hover {
+  transform: scale(1.02);
+  background-color: rgba(185, 185, 185, 0.5);
 }
 .input {
   color: var(--dl-color-gray-black);
@@ -75,6 +82,12 @@
 .teleport-show {
   display: flex !important;
   transform: none !important;
+}
+.h1 {
+  font-family: Old London Alternate;
+}
+.subText {
+  font-family: Roboto;
 }
 .Content {
   font-size: 16px;

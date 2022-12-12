@@ -1,0 +1,474 @@
+.about-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.about-about-navbar {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  font-size: 20px;
+  align-items: center;
+  font-family: Old London Alternate;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: black;
+}
+.about-logo {
+  color: white;
+  font-size: 2em;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.about-logo:hover {
+  color: goldenrod;
+}
+.about-desktop-menu {
+  display: flex;
+  margin-left: var(--dl-space-space-fourunits);
+}
+.about-nav {
+  flex: 0 0 auto;
+  color: white;
+  display: flex;
+  font-size: 2em;
+  align-items: center;
+  flex-direction: row;
+}
+.about-menu {
+  text-decoration: none;
+}
+.about-take-n-bake {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.about-about {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.about-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.about-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.about-mobile-menu {
+  top: 0px;
+  left: 0px;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #000000;
+}
+.about-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: black;
+}
+.about-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.about-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-icon2 {
+  fill: white;
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.about-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.about-menu1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.about-take-n-bake1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.about-about1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.about-nav-socials {
+  fill: white;
+  display: flex;
+}
+.about-nav-yelp {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.about-nav-f-b {
+  width: 24px;
+  height: 24px;
+}
+.about-about-hero {
+  width: 98%;
+  height: 100vh;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-about-text {
+  top: 25vh;
+  width: 98vw;
+  display: flex;
+  z-index: 95;
+  position: absolute;
+  align-items: center;
+  padding-top: 0px;
+  flex-direction: column;
+  padding-bottom: 0px;
+}
+.about-hero-heading {
+  font-size: 3rem;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  font-weight: 400;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.about-desktop-text {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.about-t-n-b-row-text {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  visibility: visible;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.about-t-n-b-left-text {
+  width: 45vw;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-fourunits);
+  padding-left: 15vw;
+  padding-right: var(--dl-space-space-twounits);
+}
+.about-text02 {
+  font-size: 50px;
+  font-family: Old London Alternate;
+}
+.about-text04 {
+  font-style: normal;
+}
+.about-t-n-b-right-text {
+  width: 45vw;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-fourunits);
+  padding-left: 4vw;
+  padding-right: 10vw;
+}
+.about-text05 {
+  font-size: 50px;
+  font-family: Old London Alternate;
+}
+.about-text07 {
+  font-style: normal;
+}
+.about-bottom-text {
+  width: 60vw;
+  z-index: 100;
+  font-size: 25px;
+}
+.about-link {
+  display: contents;
+}
+.about-hero-down {
+  top: 80vh;
+  right: 5vw;
+  width: 85px;
+  height: 85px;
+  z-index: 101;
+  position: absolute;
+  text-decoration: none;
+}
+.about-mobile-text {
+  flex: 0 0 auto;
+  display: flex;
+  visibility: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.about-t-n-b-top-text {
+  width: 45vw;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 500;
+}
+.about-text10 {
+  font-size: 50px;
+  font-family: Old London Alternate;
+}
+.about-t-n-b-bottom-text {
+  width: 45vw;
+  font-size: 20px;
+  font-style: normal;
+  text-align: right;
+  font-weight: 500;
+}
+.about-text13 {
+  font-size: 50px;
+  font-family: Old London Alternate;
+}
+.about-second-text {
+  width: 60vw;
+  z-index: 100;
+  font-size: 25px;
+  visibility: hidden;
+}
+.about-poem-text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25vh;
+  flex-direction: column;
+}
+.about-poem-header {
+  z-index: 100;
+  font-size: 3rem;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.about-text18 {
+  z-index: 101;
+  font-size: 30px;
+  line-height: 1.8;
+}
+.about-about-footer {
+  width: 100%;
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #000000;
+}
+.about-footer-phone {
+  color: white;
+  font-size: 1em;
+}
+.about-logo1 {
+  color: white;
+  font-size: 2em;
+  transition: 0.3s;
+  font-family: Old London Alternate;
+  text-decoration: none;
+}
+.about-logo1:hover {
+  color: goldenrod;
+}
+.about-icon-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.about-link1 {
+  display: contents;
+}
+.about-footer-yelp {
+  fill: #ffffff;
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.about-link2 {
+  display: contents;
+}
+.about-footer-facebook {
+  fill: #ffffff;
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .about-nav {
+    font-size: 2rem;
+  }
+  .about-about-hero {
+    flex-direction: column;
+  }
+  .about-about-text {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .about-hero-heading {
+    text-align: center;
+  }
+  .about-text {
+    text-align: center;
+  }
+  .about-t-n-b-row-text {
+    visibility: visible;
+  }
+  .about-mobile-text {
+    visibility: hidden;
+  }
+}
+@media(max-width: 767px) {
+  .about-about-navbar {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .about-desktop-menu {
+    display: none;
+  }
+  .about-take-n-bake {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .about-about {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .about-burger-menu {
+    display: flex;
+  }
+  .about-about-hero {
+    top: 8vh;
+    left: 0px;
+    right: 0px;
+    width: 526px;
+    height: initial;
+    margin: auto;
+    position: absolute;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .about-about-text {
+    display: initial;
+    position: initial;
+  }
+  .about-desktop-text {
+    height: 0;
+    visibility: hidden;
+  }
+  .about-t-n-b-row-text {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+  .about-t-n-b-left-text {
+    padding-left: 0;
+  }
+  .about-hero-down {
+    visibility: hidden;
+  }
+  .about-mobile-text {
+    align-self: center;
+    margin-top: 25vh;
+    visibility: visible;
+    margin-bottom: 25vh;
+  }
+  .about-t-n-b-top-text {
+    font-size: 20px;
+    align-self: center;
+    text-align: left;
+    font-weight: 500;
+    margin-left: 0px;
+    margin-bottom: var(--dl-space-space-fourunits);
+    padding-right: 0px;
+  }
+  .about-t-n-b-bottom-text {
+    align-self: center;
+    text-align: left;
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+  .about-second-text {
+    font-size: 20px;
+    align-self: center;
+    visibility: visible;
+  }
+  .about-poem-text {
+    padding-left: var(--dl-space-space-sixunits);
+    padding-right: var(--dl-space-space-sixunits);
+  }
+  .about-text18 {
+    font-size: 20px;
+  }
+  .about-about-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .about-about-navbar {
+    padding: var(--dl-space-space-unit);
+  }
+  .about-mobile-menu {
+    padding: 16px;
+  }
+  .about-about-hero {
+    left: 0px;
+    right: 0px;
+    width: auto;
+    margin: auto;
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .about-about-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .about-t-n-b-row-text {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+  .about-mobile-text {
+    visibility: visible;
+  }
+  .about-t-n-b-bottom-text {
+    align-self: center;
+  }
+  .about-about-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+}

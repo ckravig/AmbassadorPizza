@@ -1,0 +1,579 @@
+.take-n-bake-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.take-n-bake-t-n-b-navbar {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  font-size: 20px;
+  align-items: center;
+  font-family: Old London Alternate;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: black;
+}
+.take-n-bake-logo {
+  color: white;
+  font-size: 2em;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.take-n-bake-logo:hover {
+  color: goldenrod;
+}
+.take-n-bake-desktop-menu {
+  display: flex;
+  margin-left: var(--dl-space-space-fourunits);
+}
+.take-n-bake-nav {
+  flex: 0 0 auto;
+  color: white;
+  display: flex;
+  font-size: 2em;
+  align-items: center;
+  flex-direction: row;
+}
+.take-n-bake-menu {
+  text-decoration: none;
+}
+.take-n-bake-take-n-bake {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.take-n-bake-about {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.take-n-bake-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.take-n-bake-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.take-n-bake-mobile-menu {
+  top: 0px;
+  left: 0px;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #000000;
+}
+.take-n-bake-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: black;
+}
+.take-n-bake-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.take-n-bake-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.take-n-bake-icon2 {
+  fill: white;
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.take-n-bake-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.take-n-bake-menu1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.take-n-bake-take-n-bake1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.take-n-bake-about1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.take-n-bake-nav-socials {
+  fill: white;
+  display: flex;
+}
+.take-n-bake-nav-yelp {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.take-n-bake-nav-f-b {
+  width: 24px;
+  height: 24px;
+}
+.take-n-bake-t-n-b-hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.take-n-bake-t-n-b-text {
+  top: 25vh;
+  width: 100vw;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  padding-top: 0px;
+  flex-direction: column;
+  padding-bottom: 0px;
+}
+.take-n-bake-hero-heading {
+  font-size: 3rem;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  font-weight: 400;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.take-n-bake-t-n-b-row-text {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: relative;
+  visibility: visible;
+  align-items: flex-start;
+}
+.take-n-bake-t-n-b-left-text {
+  width: 45vw;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-fourunits);
+  padding-left: 15vw;
+  padding-right: var(--dl-space-space-fourunits);
+}
+.take-n-bake-text02 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.take-n-bake-text03 {
+  font-style: normal;
+}
+.take-n-bake-text04 {
+  font-style: normal;
+}
+.take-n-bake-text05 {
+  font-style: normal;
+}
+.take-n-bake-text06 {
+  font-style: normal;
+}
+.take-n-bake-text07 {
+  font-style: normal;
+}
+.take-n-bake-text08 {
+  font-style: normal;
+}
+.take-n-bake-text09 {
+  font-weight: 700;
+}
+.take-n-bake-text10 {
+  font-style: normal;
+}
+.take-n-bake-text11 {
+  font-style: normal;
+}
+.take-n-bake-text12 {
+  font-style: normal;
+}
+.take-n-bake-text13 {
+  font-style: normal;
+}
+.take-n-bake-text14 {
+  font-size: 45px;
+  font-style: normal;
+}
+.take-n-bake-text15 {
+  font-style: normal;
+}
+.take-n-bake-text16 {
+  font-style: normal;
+}
+.take-n-bake-text17 {
+  font-style: normal;
+}
+.take-n-bake-text18 {
+  font-weight: 700;
+}
+.take-n-bake-text19 {
+  font-style: normal;
+}
+.take-n-bake-text20 {
+  font-style: normal;
+}
+.take-n-bake-t-n-b-right-text {
+  width: 45vw;
+  font-size: 20px;
+  text-align: right;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-fourunits);
+  padding-right: 15vw;
+}
+.take-n-bake-text21 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.take-n-bake-text22 {
+  font-style: normal;
+}
+.take-n-bake-text23 {
+  font-style: normal;
+  line-height: 4;
+}
+.take-n-bake-text24 {
+  font-style: normal;
+  line-height: 4;
+}
+.take-n-bake-text25 {
+  font-style: normal;
+  line-height: 4;
+}
+.take-n-bake-text26 {
+  font-style: normal;
+  line-height: 4;
+}
+.take-n-bake-text27 {
+  font-style: normal;
+  line-height: 4;
+}
+.take-n-bake-text28 {
+  font-style: normal;
+  line-height: 4;
+}
+.take-n-bake-text29 {
+  font-style: normal;
+  line-height: 4;
+}
+.take-n-bake-text30 {
+  font-style: normal;
+}
+.take-n-bake-t-n-b-column-text {
+  flex: 0 0 auto;
+  display: flex;
+  visibility: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.take-n-bake-t-n-b-top-text {
+  width: 45vw;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 500;
+}
+.take-n-bake-text31 {
+  font-style: normal;
+}
+.take-n-bake-text34 {
+  font-style: normal;
+}
+.take-n-bake-text38 {
+  font-style: normal;
+}
+.take-n-bake-text39 {
+  font-style: normal;
+}
+.take-n-bake-text43 {
+  font-style: normal;
+}
+.take-n-bake-text47 {
+  font-style: normal;
+}
+.take-n-bake-text48 {
+  font-style: normal;
+}
+.take-n-bake-t-n-b-bottom-text {
+  width: 45vw;
+  font-size: 20px;
+  font-style: normal;
+  text-align: right;
+  font-weight: 500;
+}
+.take-n-bake-text50 {
+  font-size: 25px;
+}
+.take-n-bake-text52 {
+  line-height: 4;
+}
+.take-n-bake-text53 {
+  line-height: 4;
+}
+.take-n-bake-text54 {
+  line-height: 4;
+}
+.take-n-bake-text55 {
+  line-height: 4;
+}
+.take-n-bake-text56 {
+  line-height: 4;
+}
+.take-n-bake-text57 {
+  line-height: 4;
+}
+.take-n-bake-text58 {
+  line-height: 4;
+}
+.take-n-bake-t-n-b-footer {
+  width: 100%;
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #000000;
+}
+.take-n-bake-footer-phone {
+  color: white;
+  font-size: 1em;
+}
+.take-n-bake-logo1 {
+  color: white;
+  font-size: 2em;
+  transition: 0.3s;
+  font-family: Old London Alternate;
+  text-decoration: none;
+}
+.take-n-bake-logo1:hover {
+  color: goldenrod;
+}
+.take-n-bake-icon-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.take-n-bake-link {
+  display: contents;
+}
+.take-n-bake-footer-yelp {
+  fill: #ffffff;
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.take-n-bake-link1 {
+  display: contents;
+}
+.take-n-bake-footer-facebook {
+  fill: #ffffff;
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .take-n-bake-nav {
+    font-size: 2rem;
+  }
+  .take-n-bake-t-n-b-hero {
+    flex-direction: column;
+  }
+  .take-n-bake-t-n-b-text {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .take-n-bake-hero-heading {
+    text-align: center;
+  }
+  .take-n-bake-text {
+    text-align: center;
+  }
+  .take-n-bake-t-n-b-row-text {
+    visibility: visible;
+  }
+  .take-n-bake-t-n-b-column-text {
+    visibility: hidden;
+  }
+}
+@media(max-width: 767px) {
+  .take-n-bake-t-n-b-navbar {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .take-n-bake-desktop-menu {
+    display: none;
+  }
+  .take-n-bake-take-n-bake {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .take-n-bake-about {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .take-n-bake-burger-menu {
+    display: flex;
+  }
+  .take-n-bake-t-n-b-hero {
+    top: 15vh;
+    left: 0px;
+    right: 0px;
+    width: 526px;
+    margin: auto;
+    position: absolute;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .take-n-bake-t-n-b-text {
+    display: initial;
+    position: initial;
+  }
+  .take-n-bake-t-n-b-row-text {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+  .take-n-bake-t-n-b-left-text {
+    padding-left: 0;
+  }
+  .take-n-bake-t-n-b-column-text {
+    align-self: center;
+    visibility: visible;
+  }
+  .take-n-bake-t-n-b-top-text {
+    font-size: 20px;
+    align-self: center;
+    text-align: center;
+    font-weight: 500;
+    margin-left: 0px;
+    margin-bottom: var(--dl-space-space-fourunits);
+    padding-right: 0px;
+  }
+  .take-n-bake-text31 {
+    font-size: 25px;
+    font-style: normal;
+  }
+  .take-n-bake-text32 {
+    font-style: normal;
+  }
+  .take-n-bake-text33 {
+    font-style: normal;
+  }
+  .take-n-bake-text34 {
+    font-style: normal;
+  }
+  .take-n-bake-text35 {
+    font-style: normal;
+  }
+  .take-n-bake-text36 {
+    font-style: normal;
+  }
+  .take-n-bake-text37 {
+    font-style: normal;
+  }
+  .take-n-bake-text38 {
+    font-weight: 700;
+  }
+  .take-n-bake-text39 {
+    font-style: normal;
+  }
+  .take-n-bake-text40 {
+    font-style: normal;
+  }
+  .take-n-bake-text41 {
+    font-style: normal;
+  }
+  .take-n-bake-text42 {
+    font-style: normal;
+  }
+  .take-n-bake-text43 {
+    font-size: 45px;
+    font-style: normal;
+  }
+  .take-n-bake-text44 {
+    font-style: normal;
+  }
+  .take-n-bake-text45 {
+    font-style: normal;
+  }
+  .take-n-bake-text46 {
+    font-style: normal;
+  }
+  .take-n-bake-text47 {
+    font-style: inherit;
+    font-weight: 700;
+  }
+  .take-n-bake-text48 {
+    font-style: normal;
+  }
+  .take-n-bake-text49 {
+    font-style: normal;
+  }
+  .take-n-bake-t-n-b-bottom-text {
+    align-self: center;
+    text-align: center;
+  }
+  .take-n-bake-t-n-b-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .take-n-bake-t-n-b-navbar {
+    padding: var(--dl-space-space-unit);
+  }
+  .take-n-bake-mobile-menu {
+    padding: 16px;
+  }
+  .take-n-bake-t-n-b-hero {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .take-n-bake-t-n-b-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .take-n-bake-t-n-b-row-text {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+  .take-n-bake-t-n-b-column-text {
+    visibility: visible;
+  }
+  .take-n-bake-t-n-b-bottom-text {
+    align-self: center;
+  }
+  .take-n-bake-t-n-b-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+}
