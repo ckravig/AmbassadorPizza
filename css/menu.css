@@ -357,6 +357,22 @@
   align-items: center;
   flex-direction: column;
 }
+.menu-menu-navbar {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  font-size: 20px;
+  align-items: center;
+  font-family: Old London Alternate;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: black;
+}
 .menu-logo {
   color: white;
   font-size: 2em;
@@ -734,6 +750,10 @@
   }
 }
 @media(max-width: 767px) {
+  .menu-menu-navbar {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
   .menu-desktop-menu {
     display: none;
   }
@@ -756,6 +776,9 @@
   }
 }
 @media(max-width: 479px) {
+  .menu-menu-navbar {
+    padding: var(--dl-space-space-unit);
+  }
   .menu-mobile-menu {
     padding: 16px;
   }
