@@ -371,20 +371,12 @@
   margin-left: var(--dl-space-space-fourunits);
 }
 .menu-nav {
-  width: 100%;
+  flex: 0 0 auto;
+  color: white;
   display: flex;
-  z-index: 100;
-  position: fixed;
-  font-size: 20px;
+  font-size: 2em;
   align-items: center;
-  font-family: Old London Alternate;
-  padding-top: var(--dl-space-space-twounits);
-  padding-left: var(--dl-space-space-threeunits);
-  margin-bottom: var(--dl-space-space-twounits);
-  padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-twounits);
-  justify-content: space-between;
-  background-color: black;
+  flex-direction: row;
 }
 .menu-menu {
   text-decoration: none;
@@ -767,11 +759,18 @@
   .menu-mobile-menu {
     padding: 16px;
   }
+  .menu-menu-header {
+    font-family: Old London Alternate;
+  }
   .menu-menu-elements {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
+    justify-content: center;
+  }
+  .menu-appetizers1 {
+    position: relative;
   }
   .menu-menu-items {
     grid-gap: var(--dl-space-space-halfunit);
