@@ -1,0 +1,76 @@
+.pizza-card-no-pic-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pizza-card-no-pic-text {
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.pizza-card-no-pic-item {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.pizza-card-no-pic-size {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pizza-card-no-pic-text2 {
+  font-size: 20px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: left;
+  font-weight: 500;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+}
+.pizza-card-no-pic-text3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+}
+.pizza-card-no-pic-text4 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+}
+.pizza-card-no-pic-price {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.pizza-card-no-pic-text5 {
+  font-size: 20px;
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 500;
+  margin-right: var(--dl-space-space-unit);
+}
+.pizza-card-no-pic-text6 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  margin-right: var(--dl-space-space-unit);
+}
+.pizza-card-no-pic-text7 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  margin-right: var(--dl-space-space-unit);
+}
+
+
+

@@ -1,0 +1,29 @@
+.garlic-toast-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.garlic-toast-text {
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.garlic-toast-text1 {
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.garlic-toast-price {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.garlic-toast-text7 {
+  font-size: 20px;
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 500;
+  margin-right: var(--dl-space-space-unit);
+}
+

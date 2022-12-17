@@ -30,6 +30,11 @@
     </style>
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
       data-tag="font"
     />
@@ -47,7 +52,7 @@
       <link href="/AmbassadorPizza/css/menu.css" rel="stylesheet" />
 
       <div class="menu-container">
-        <header data-thq="thq-navbar" class="menu-menu-navbar">
+        <header data-thq="thq-navbar" class="navbar">
           <a href="/AmbassadorPizza/index.html" class="menu-logo">Ambassador</a>
           <div
             data-thq="thq-navbar-nav"
@@ -135,163 +140,680 @@
           </span>
           <div class="menu-menu-elements">
             <div class="menu-filters">
-              <button type="button" class="menu-appetizers button">
+              <button
+                type="button"
+                id="filterApps"
+                class="menu-appetizers button"
+              >
                 <span>
                   <span>Appetizers</span>
                   <br />
                 </span>
               </button>
-              <button type="button" class="menu-pizza button">
+              <button id="filterPizza" type="button" class="menu-pizza button">
                 <span>
                   <span>Pizza</span>
                   <br />
                 </span>
               </button>
-              <button type="button" class="menu-pasta button">
+              <button type="button" id="filterPasta" class="menu-pasta button">
                 <span>
                   <span>Pasta</span>
                   <br />
                 </span>
               </button>
-              <button type="button" class="menu-salad button">
+              <button type="button" id="filterSalad" class="menu-salad button">
                 <span>
                   <span>Salad</span>
                   <br />
                 </span>
               </button>
-              <button type="button" class="menu-sandwiches button">
+              <button
+                type="button"
+                id="filterSandwich"
+                class="menu-sandwiches button"
+              >
                 <span>
                   <span>Sandwiches</span>
                   <br />
                 </span>
               </button>
-              <button type="button" class="menu-spirits button">
+              <button
+                type="button"
+                id="filterSpirits"
+                class="menu-spirits button"
+              >
                 <span>
                   <span>Spirits</span>
                   <br />
                 </span>
               </button>
             </div>
-            <div class="menu-menu-items">
-              <div
-                class="feature-card1-feature-card feature-card1-root-class-name"
-              >
-                <h2 class="feature-card1-text"><span>Lorem ipsum</span></h2>
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHllbGxvdyUyMHRlY2h8ZW58MHx8fHwxNjI2MjU1NDk0&amp;ixlib=rb-1.2.1&amp;w=1000"
-                  class="feature-card1-image"
-                />
+            <div class="menu-appetizers1">
+              <span class="menu-text20">
+                <span>Appetizers</span>
+                <br />
+              </span>
+              <div class="menu-menu-items">
+                <div class="nachos-container menuCard nachos-root-class-name">
+                  <h2 class="nachos-text"><span>NACHOS</span></h2>
+                  <span>
+                    <span>Corn Tortilla Chips and</span>
+                    <br />
+                    <span>Hot Nacho Cheese . . . $4.99</span>
+                    <br />
+                    <span>House-made Salsa . . . $2.19</span>
+                    <br />
+                    <span>Sour Cream . . . . . . . . . $1.00</span>
+                    <br />
+                    <span>Jalapenos&nbsp; . .&nbsp; . . . . . . . .80¢</span>
+                    <br />
+                    <span>Basket of Chips. . . . .&nbsp; .$2.49</span>
+                  </span>
+                </div>
+                <div
+                  class="standard-item-no-pic-container menuCard standard-item-no-pic-root-class-name"
+                >
+                  <h2 class="standard-item-no-pic-text">
+                    <span>BAKED POTATO SHELLS</span>
+                  </h2>
+                  <div class="standard-item-no-pic-item">
+                    <span>
+                      <span>
+                        Filled with Sauteed Italian Onion Sausage, Wisconsin
+                        Cheddar Cheese and Parmesan. Served with Sour Cream
+                      </span>
+                    </span>
+                  </div>
+                  <div class="standard-item-no-pic-price">
+                    <span class="standard-item-no-pic-text2">
+                      <span>7.49</span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="garlic-toast-container menuCard garlic-toast-root-class-name"
+                >
+                  <h2 class="garlic-toast-text">
+                    <span>GARLIC TOAST BASKET</span>
+                  </h2>
+                  <span class="garlic-toast-text1">
+                    <span>Ranch Dressing. . . . . . .$1.00</span>
+                    <br />
+                    <span>Spaghetti Sauce. . . . . . $1.79</span>
+                    <br />
+                    <span>Pizza Sauce. . . . . . . . . .$1.49</span>
+                  </span>
+                  <div class="garlic-toast-price">
+                    <span class="garlic-toast-text7"><span>12.99</span></span>
+                  </div>
+                </div>
               </div>
-              <div
-                class="feature-card1-feature-card feature-card1-root-class-name1"
-              >
-                <h2 class="feature-card1-text"><span>Lorem ipsum</span></h2>
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHllbGxvdyUyMHRlY2h8ZW58MHx8fHwxNjI2MjU1NDk0&amp;ixlib=rb-1.2.1&amp;w=1000"
-                  class="feature-card1-image"
-                />
+            </div>
+            <div class="menu-pizza1">
+              <span class="menu-text23">
+                <span>Pizza</span>
+                <br />
+              </span>
+              <div class="menu-menu-items1">
+                <div
+                  class="pizza-card-no-pic-container menuCard pizza pizza-card-no-pic-root-class-name"
+                >
+                  <h2 class="pizza-card-no-pic-text">
+                    <span>TOSTADA PIZZA</span>
+                  </h2>
+                  <div class="pizza-card-no-pic-item">
+                    <span>
+                      <span>
+                        Award Winning Tostada Beef layered over House-made Pizza
+                        Sauce and Baked with Wisconsin White Colby Cheese.
+                        Topped with Fresh Shredded Lettuce, Tomatoes, Wisconsin
+                        Cheddar Cheese and Tostada Hot Sauce.
+                      </span>
+                    </span>
+                  </div>
+                  <div class="pizza-card-no-pic-size">
+                    <span class="pizza-card-no-pic-text2">
+                      <span>10 in</span>
+                    </span>
+                    <span class="pizza-card-no-pic-text3">
+                      <span>12 in</span>
+                    </span>
+                    <span class="pizza-card-no-pic-text4">
+                      <span>14 in</span>
+                    </span>
+                  </div>
+                  <div class="pizza-card-no-pic-price">
+                    <span class="pizza-card-no-pic-text5">
+                      <span>13.99</span>
+                    </span>
+                    <span class="pizza-card-no-pic-text6">
+                      <span>17.99</span>
+                    </span>
+                    <span class="pizza-card-no-pic-text7">
+                      <span>20.99</span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="pizza-card-no-pic-container menuCard pizza pizza-card-no-pic-root-class-name1"
+                >
+                  <h2 class="pizza-card-no-pic-text">
+                    <span>B.L.T. PIZZA</span>
+                  </h2>
+                  <div class="pizza-card-no-pic-item">
+                    <span>
+                      <span>
+                        A Generous amount of Smoked Bacon layered over Salad
+                        Dressing baked with Wisconsin White Colby Cheese. Topped
+                        with Fresh Shredded Lettuce and Tomatoes.
+                      </span>
+                    </span>
+                  </div>
+                  <div class="pizza-card-no-pic-size">
+                    <span class="pizza-card-no-pic-text2">
+                      <span>10 in</span>
+                    </span>
+                    <span class="pizza-card-no-pic-text3">
+                      <span>12 in</span>
+                    </span>
+                    <span class="pizza-card-no-pic-text4">
+                      <span>14 in</span>
+                    </span>
+                  </div>
+                  <div class="pizza-card-no-pic-price">
+                    <span class="pizza-card-no-pic-text5">
+                      <span>12.99</span>
+                    </span>
+                    <span class="pizza-card-no-pic-text6">
+                      <span>16.99</span>
+                    </span>
+                    <span class="pizza-card-no-pic-text7">
+                      <span>21.99</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="menuCard pizza pizza-card-root-class-name">
+                  <h2 class="pizza-card-text"><span>VEGETARIAN PIZZA</span></h2>
+                  <div class="pizza-card-item">
+                    <img
+                      alt="image"
+                      src="https://images.pexels.com/photos/12453969/pexels-photo-12453969.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2"
+                      class="pizza-card-image"
+                    />
+                    <span>
+                      <span>
+                        Tomatoes, Zucchini, Carrots, Onions, Broccoli, Wisconsin
+                        Cheddar &amp; White Colby Cheeses, and Garlic Olive Oil
+                        layered over House-made Pizza Sauce.
+                      </span>
+                    </span>
+                  </div>
+                  <div class="pizza-card-size">
+                    <span class="pizza-card-text2"><span>10 in</span></span>
+                    <span class="pizza-card-text3"><span>12 in</span></span>
+                    <span class="pizza-card-text4"><span>14 in</span></span>
+                  </div>
+                  <div class="pizza-card-price">
+                    <span class="pizza-card-text5"><span>12.99</span></span>
+                    <span class="pizza-card-text6"><span>14.99</span></span>
+                    <span class="pizza-card-text7"><span>17.99</span></span>
+                  </div>
+                </div>
+                <div
+                  class="pizza-card-no-pic-container menuCard pizza pizza-card-no-pic-root-class-name2"
+                >
+                  <h2 class="pizza-card-no-pic-text">
+                    <span>GREEK PIZZA</span>
+                  </h2>
+                  <div class="pizza-card-no-pic-item">
+                    <span>
+                      <span>
+                        Fresh Spinach, Tomatoes, Black &amp; Green Olives, Feta
+                        Cheese, Oregano and Garlic Basil Olive Oil layered over
+                        Wisconsin White Colby Cheese.
+                      </span>
+                    </span>
+                  </div>
+                  <div class="pizza-card-no-pic-size">
+                    <span class="pizza-card-no-pic-text2">
+                      <span>10 in</span>
+                    </span>
+                    <span class="pizza-card-no-pic-text3">
+                      <span>12 in</span>
+                    </span>
+                    <span class="pizza-card-no-pic-text4">
+                      <span>14 in</span>
+                    </span>
+                  </div>
+                  <div class="pizza-card-no-pic-price">
+                    <span class="pizza-card-no-pic-text5">
+                      <span>12.99</span>
+                    </span>
+                    <span class="pizza-card-no-pic-text6">
+                      <span>16.99</span>
+                    </span>
+                    <span class="pizza-card-no-pic-text7">
+                      <span>19.99</span>
+                    </span>
+                  </div>
+                </div>
               </div>
-              <div
-                class="feature-card1-feature-card feature-card1-root-class-name2"
-              >
-                <h2 class="feature-card1-text"><span>Lorem ipsum</span></h2>
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHllbGxvdyUyMHRlY2h8ZW58MHx8fHwxNjI2MjU1NDk0&amp;ixlib=rb-1.2.1&amp;w=1000"
-                  class="feature-card1-image"
-                />
+            </div>
+            <div class="menu-pasta1">
+              <span class="menu-text26">
+                <span>Pasta</span>
+                <br />
+              </span>
+              <div class="menu-menu-items2">
+                <div
+                  class="standard-item-container menuCard standard-item-root-class-name"
+                >
+                  <h2 class="standard-item-text"><span>LASAGNA</span></h2>
+                  <div class="standard-item-item">
+                    <img
+                      alt="image"
+                      src="https://images.pexels.com/photos/6046493/pexels-photo-6046493.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2"
+                      class="standard-item-image"
+                    />
+                    <span>
+                      <span>
+                        Herbed Ricotta Cheese &amp; House-made Italian Meat
+                        Sauce layered with Cheddar, Mozzarella, &amp; Wisconsin
+                        White Colby Cheese. Served with Garlic Toast.
+                      </span>
+                    </span>
+                  </div>
+                  <div class="standard-item-price">
+                    <span class="standard-item-text2"><span>11.99</span></span>
+                  </div>
+                </div>
+                <div
+                  class="standard-i-sizedtem-no-pic-container menuCard standard-i-sizedtem-no-pic-root-class-name"
+                >
+                  <h2 class="standard-i-sizedtem-no-pic-text">
+                    <span>RAVIOLI</span>
+                  </h2>
+                  <div class="standard-i-sizedtem-no-pic-item">
+                    <span>
+                      <span>
+                        Italian Beef, Caramelized Onions &amp; Herbed Ricotta
+                        Cheese Stuffed Ravioli topped with House-made Italian
+                        Meat Sauce and Grated Parmesan. Served with Garlic
+                        Toast.
+                      </span>
+                    </span>
+                  </div>
+                  <div class="standard-i-sizedtem-no-pic-size">
+                    <span class="standard-i-sizedtem-no-pic-text2">
+                      <span>sm</span>
+                    </span>
+                    <span class="standard-i-sizedtem-no-pic-text3">
+                      <span>lrg</span>
+                    </span>
+                  </div>
+                  <div class="standard-i-sizedtem-no-pic-price">
+                    <span class="standard-i-sizedtem-no-pic-text4">
+                      <span>4.99</span>
+                    </span>
+                    <span class="standard-i-sizedtem-no-pic-text5">
+                      <span>8.59</span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standard-item-no-pic-container menuCard standard-item-no-pic-root-class-name1"
+                >
+                  <h2 class="standard-item-no-pic-text">
+                    <span>PESTO PASTA</span>
+                  </h2>
+                  <div class="standard-item-no-pic-item">
+                    <span>
+                      <span>
+                        Spaghetti tossed with Pesto Sauce, Fresh Spinach and
+                        Marinated Cherry TomatoesSpaghetti tossed with Pesto
+                        Sauce, Fresh Spinach and Marinated Cherry Tomatoes
+                      </span>
+                    </span>
+                  </div>
+                  <div class="standard-item-no-pic-price">
+                    <span class="standard-item-no-pic-text2">
+                      <span>8.99</span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standard-item-no-pic-container menuCard standard-item-no-pic-root-class-name2"
+                >
+                  <h2 class="standard-item-no-pic-text">
+                    <span>SPECIALITY PASTA</span>
+                  </h2>
+                  <div class="standard-item-no-pic-item">
+                    <span>
+                      <span>
+                        Spaghetti mixed with a fresh Olive Oil Pan Sauce of
+                        Garlic, Basil, Marinated Cherry Tomatoes &amp; Parmesan
+                      </span>
+                    </span>
+                  </div>
+                  <div class="standard-item-no-pic-price">
+                    <span class="standard-item-no-pic-text2">
+                      <span>6.99</span>
+                    </span>
+                  </div>
+                </div>
               </div>
-              <div
-                class="feature-card1-feature-card feature-card1-root-class-name3"
-              >
-                <h2 class="feature-card1-text"><span>Lorem ipsum</span></h2>
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHllbGxvdyUyMHRlY2h8ZW58MHx8fHwxNjI2MjU1NDk0&amp;ixlib=rb-1.2.1&amp;w=1000"
-                  class="feature-card1-image"
-                />
+            </div>
+            <div class="menu-salad1">
+              <span class="menu-text29">
+                <span>Salad</span>
+                <br />
+              </span>
+              <div class="menu-menu-items3">
+                <div
+                  class="standard-item-no-pic-container menuCard standard-item-no-pic-root-class-name3"
+                >
+                  <h2 class="standard-item-no-pic-text">
+                    <span>HOUSE SALAD</span>
+                  </h2>
+                  <div class="standard-item-no-pic-item">
+                    <span>
+                      <span>
+                        Fresh Cut Iceberg Lettuce, Tomatoes, Onions, Wisconsin
+                        Cheddar Cheese and Croutons.
+                      </span>
+                    </span>
+                  </div>
+                  <div class="standard-item-no-pic-price">
+                    <span class="standard-item-no-pic-text2">
+                      <span>5.49</span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standard-item-no-pic-container menuCard standard-item-no-pic-root-class-name4"
+                >
+                  <h2 class="standard-item-no-pic-text">
+                    <span>SIDE CAESAR SALAD</span>
+                  </h2>
+                  <div class="standard-item-no-pic-item">
+                    <span>
+                      <span>
+                        Freshly Chopped Romaine Lettuce, Croutons, Onions,
+                        Tomatoes, Shredded Parmesan Cheese, and Caesar Dressing
+                      </span>
+                    </span>
+                  </div>
+                  <div class="standard-item-no-pic-price">
+                    <span class="standard-item-no-pic-text2">
+                      <span>6.49</span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standard-item-no-pic-container menuCard standard-item-no-pic-root-class-name5"
+                >
+                  <h2 class="standard-item-no-pic-text">
+                    <span>TOSTADA TACO SALAD</span>
+                  </h2>
+                  <div class="standard-item-no-pic-item">
+                    <span>
+                      <span>
+                        Fresh Cut Iceberg Lettuce topped with our specialty
+                        House-made Tostada Beef, Wisconsin Cheddar Cheese,
+                        Tomatoes, Black Olives and Corn Chips. Served With
+                        Tostada Hot Sauce, Sour Cream, and Salsa.
+                      </span>
+                    </span>
+                  </div>
+                  <div class="standard-item-no-pic-price">
+                    <span class="standard-item-no-pic-text2">
+                      <span>8.99</span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standard-item-no-pic-container menuCard standard-item-no-pic-root-class-name6"
+                >
+                  <h2 class="standard-item-no-pic-text">
+                    <span>ITALIAN BEEF VINAIGRETTE</span>
+                  </h2>
+                  <div class="standard-item-no-pic-item">
+                    <span>
+                      <span>
+                        Fresh Cut Iceberg Lettuce with Thinly Shaved Tender
+                        Roast Beef, Italian Green Beans, Onions, Tomatoes, and
+                        Black Olives. Served with Fresh Baked Garlic Toast and
+                        Italian Dressing.
+                      </span>
+                    </span>
+                  </div>
+                  <div class="standard-item-no-pic-price">
+                    <span class="standard-item-no-pic-text2">
+                      <span>9.59</span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standard-item-no-pic-container menuCard standard-item-no-pic-root-class-name7"
+                >
+                  <h2 class="standard-item-no-pic-text">
+                    <span>ITALIAN TUNA SALAD</span>
+                  </h2>
+                  <div class="standard-item-no-pic-item">
+                    <span>
+                      <span>
+                        Fresh Cut Iceberg Lettuce with chunks of Light Tuna,
+                        Onions, Tomatoes, Green Beans, Yellow Wax Beans &amp;
+                        Kidney Beans. Served with Fresh Baked Garlic Toast and
+                        Italian Dressing
+                      </span>
+                    </span>
+                  </div>
+                  <div class="standard-item-no-pic-price">
+                    <span class="standard-item-no-pic-text2">
+                      <span>9.19</span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standard-item-no-pic-container menuCard standard-item-no-pic-root-class-name8"
+                >
+                  <h2 class="standard-item-no-pic-text">
+                    <span>GREEK SALAD</span>
+                  </h2>
+                  <div class="standard-item-no-pic-item">
+                    <span>
+                      <span>
+                        Fresh Cut Iceberg Lettuce with Onions, Tomatoes, Black
+                        Olives, Green Peppers, Marinated Cucumbers and Crumbled
+                        Feta Cheese. Served with Fresh Baked Garlic Toast and
+                        Italian Dressing.
+                      </span>
+                    </span>
+                  </div>
+                  <div class="standard-item-no-pic-price">
+                    <span class="standard-item-no-pic-text2">
+                      <span>8.99</span>
+                    </span>
+                  </div>
+                </div>
               </div>
-              <div
-                class="feature-card1-feature-card feature-card1-root-class-name7"
-              >
-                <h2 class="feature-card1-text"><span>Lorem ipsum</span></h2>
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHllbGxvdyUyMHRlY2h8ZW58MHx8fHwxNjI2MjU1NDk0&amp;ixlib=rb-1.2.1&amp;w=1000"
-                  class="feature-card1-image"
-                />
+            </div>
+            <div class="menu-sandwiches1">
+              <span class="menu-text32">
+                <span>Sandwiches</span>
+                <br />
+              </span>
+              <div class="menu-menu-items4">
+                <div
+                  class="standard-item-no-pic-container menuCard standard-item-no-pic-root-class-name9"
+                >
+                  <h2 class="standard-item-no-pic-text"><span>REUBEN</span></h2>
+                  <div class="standard-item-no-pic-item">
+                    <span>
+                      <span>
+                        Hot Corned Beef, Creamy Swiss Cheese, Thousand Island
+                        Dressing, Spiced Sauerkraut on our Hot Crusty Italian
+                        Bread.
+                      </span>
+                    </span>
+                  </div>
+                  <div class="standard-item-no-pic-price">
+                    <span class="standard-item-no-pic-text2">
+                      <span>8.99</span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standard-item-container menuCard standard-item-root-class-name1"
+                >
+                  <h2 class="standard-item-text">
+                    <span>ITALIAN MEATBALL</span>
+                  </h2>
+                  <div class="standard-item-item">
+                    <img
+                      alt="image"
+                      src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Easy_Meatball_Sub_3_%2829213867773%29.jpg"
+                      class="standard-item-image"
+                    />
+                    <span>
+                      <span>
+                        6 Large Savory Meatballs Stewed in an Italian Tomato
+                        Sauce, topped with Colby Cheese.
+                      </span>
+                    </span>
+                  </div>
+                  <div class="standard-item-price">
+                    <span class="standard-item-text2"><span>7.49</span></span>
+                  </div>
+                </div>
+                <div
+                  class="standard-item-no-pic-container menuCard standard-item-no-pic-root-class-name10"
+                >
+                  <h2 class="standard-item-no-pic-text">
+                    <span>AMBASSADOR CLUB</span>
+                  </h2>
+                  <div class="standard-item-no-pic-item">
+                    <span>
+                      <span>
+                        Tender Sliced Turkey Breast, Pit Ham, Wisconsin Cheddar
+                        Cheese, Tomatoes, Lettuce &amp; Salad Dressing
+                      </span>
+                    </span>
+                  </div>
+                  <div class="standard-item-no-pic-price">
+                    <span class="standard-item-no-pic-text2">
+                      <span>7.99</span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standard-item-no-pic-container menuCard standard-item-no-pic-root-class-name11"
+                >
+                  <h2 class="standard-item-no-pic-text">
+                    <span>YODELER</span>
+                  </h2>
+                  <div class="standard-item-no-pic-item">
+                    <span>
+                      <span>
+                        Hot Corned Beef, Shredded Lettuce and Sliced Tomatoes
+                        topped with a Thousand Island Dressing.
+                      </span>
+                    </span>
+                  </div>
+                  <div class="standard-item-no-pic-price">
+                    <span class="standard-item-no-pic-text2">
+                      <span>8.99</span>
+                    </span>
+                  </div>
+                </div>
               </div>
-              <div
-                class="feature-card1-feature-card feature-card1-root-class-name6"
-              >
-                <h2 class="feature-card1-text"><span>Lorem ipsum</span></h2>
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHllbGxvdyUyMHRlY2h8ZW58MHx8fHwxNjI2MjU1NDk0&amp;ixlib=rb-1.2.1&amp;w=1000"
-                  class="feature-card1-image"
-                />
-              </div>
-              <div
-                class="feature-card1-feature-card feature-card1-root-class-name5"
-              >
-                <h2 class="feature-card1-text"><span>Lorem ipsum</span></h2>
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHllbGxvdyUyMHRlY2h8ZW58MHx8fHwxNjI2MjU1NDk0&amp;ixlib=rb-1.2.1&amp;w=1000"
-                  class="feature-card1-image"
-                />
-              </div>
-              <div
-                class="feature-card1-feature-card feature-card1-root-class-name4"
-              >
-                <h2 class="feature-card1-text"><span>Lorem ipsum</span></h2>
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHllbGxvdyUyMHRlY2h8ZW58MHx8fHwxNjI2MjU1NDk0&amp;ixlib=rb-1.2.1&amp;w=1000"
-                  class="feature-card1-image"
-                />
-              </div>
-              <div
-                class="feature-card1-feature-card feature-card1-root-class-name8"
-              >
-                <h2 class="feature-card1-text"><span>Lorem ipsum</span></h2>
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHllbGxvdyUyMHRlY2h8ZW58MHx8fHwxNjI2MjU1NDk0&amp;ixlib=rb-1.2.1&amp;w=1000"
-                  class="feature-card1-image"
-                />
-              </div>
-              <div
-                class="feature-card1-feature-card feature-card1-root-class-name9"
-              >
-                <h2 class="feature-card1-text"><span>Lorem ipsum</span></h2>
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHllbGxvdyUyMHRlY2h8ZW58MHx8fHwxNjI2MjU1NDk0&amp;ixlib=rb-1.2.1&amp;w=1000"
-                  class="feature-card1-image"
-                />
-              </div>
-              <div
-                class="feature-card1-feature-card feature-card1-root-class-name10"
-              >
-                <h2 class="feature-card1-text"><span>Lorem ipsum</span></h2>
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHllbGxvdyUyMHRlY2h8ZW58MHx8fHwxNjI2MjU1NDk0&amp;ixlib=rb-1.2.1&amp;w=1000"
-                  class="feature-card1-image"
-                />
-              </div>
-              <div
-                class="feature-card1-feature-card feature-card1-root-class-name11"
-              >
-                <h2 class="feature-card1-text"><span>Lorem ipsum</span></h2>
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHllbGxvdyUyMHRlY2h8ZW58MHx8fHwxNjI2MjU1NDk0&amp;ixlib=rb-1.2.1&amp;w=1000"
-                  class="feature-card1-image"
-                />
+            </div>
+            <div class="menu-spirits1">
+              <span class="menu-text35">
+                <span>Spirits</span>
+                <br />
+              </span>
+              <div class="menu-menu-items5">
+                <div
+                  class="standard-item-no-pic-container menuCard standard-item-no-pic-root-class-name12"
+                >
+                  <h2 class="standard-item-no-pic-text">
+                    <span>SWEET TART</span>
+                  </h2>
+                  <div class="standard-item-no-pic-item">
+                    <span>
+                      <span>
+                        Vodka, Blue Curacao, Raspberry Schnapps, Triple Sec,
+                        Cranberry Juice, Sprite and Squirt.
+                      </span>
+                    </span>
+                  </div>
+                  <div class="standard-item-no-pic-price">
+                    <span class="standard-item-no-pic-text2">
+                      <span>8.50</span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standard-item-no-pic-container menuCard standard-item-no-pic-root-class-name13"
+                >
+                  <h2 class="standard-item-no-pic-text">
+                    <span>SCORPION</span>
+                  </h2>
+                  <div class="standard-item-no-pic-item">
+                    <span>
+                      <span>
+                        Exotic Blend of Pineapple and Orange Juice, Gin, Rum and
+                        Creme de Almond
+                      </span>
+                    </span>
+                  </div>
+                  <div class="standard-item-no-pic-price">
+                    <span class="standard-item-no-pic-text2">
+                      <span>8.50</span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standard-item-no-pic-container menuCard standard-item-no-pic-root-class-name14"
+                >
+                  <h2 class="standard-item-no-pic-text">
+                    <span>PIRATE’S COVE</span>
+                  </h2>
+                  <div class="standard-item-no-pic-item">
+                    <span>
+                      <span>
+                        Spiced Rum, Blue Curacao, Lime Juice and Squirt.
+                      </span>
+                    </span>
+                  </div>
+                  <div class="standard-item-no-pic-price">
+                    <span class="standard-item-no-pic-text2">
+                      <span>8.50</span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="standard-item-no-pic-container menuCard standard-item-no-pic-root-class-name15"
+                >
+                  <h2 class="standard-item-no-pic-text">
+                    <span>BLUE MOTORCYCLE</span>
+                  </h2>
+                  <div class="standard-item-no-pic-item">
+                    <span>
+                      <span>
+                        Vodka, Blue Curacao, Triple Sec, Lemon, Lime and Squirt.
+                      </span>
+                    </span>
+                  </div>
+                  <div class="standard-item-no-pic-price">
+                    <span class="standard-item-no-pic-text2">
+                      <span>8.50</span>
+                    </span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
