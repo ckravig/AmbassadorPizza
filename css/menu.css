@@ -371,12 +371,20 @@
   margin-left: var(--dl-space-space-fourunits);
 }
 .menu-nav {
-  flex: 0 0 auto;
-  color: white;
+  width: 100%;
   display: flex;
-  font-size: 2em;
+  z-index: 100;
+  position: fixed;
+  font-size: 20px;
   align-items: center;
-  flex-direction: row;
+  font-family: Old London Alternate;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: black;
 }
 .menu-menu {
   text-decoration: none;
